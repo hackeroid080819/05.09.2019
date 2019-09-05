@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // -- don't forget to update the xml
         if (view.getId() == R.id.mainBtn)
         {
-	// do this when button1 was clicked
-        Toast.makeText(getBaseContext(), "Clicked", Toast.LENGTH_LONG).show();
+		// do this when button1 was clicked
+        	Toast.makeText(getBaseContext(), "Clicked", Toast.LENGTH_LONG).show();
         }
         else if (view.getId() == R.id.mainBtn2)
         {
-	// do this when button2 was clicked
-        Toast.makeText(getBaseContext(), "Clicked", Toast.LENGTH_LONG).show();
+		// do this when button2 was clicked
+        	Toast.makeText(getBaseContext(), "Clicked", Toast.LENGTH_LONG).show();
         }
 
     }
